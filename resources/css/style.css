@@ -9,7 +9,7 @@ body {
 }
 
 div {
-   border: 1px solid red;
+   border: 1px solid black;
 }
 
 .flex-container {
@@ -68,5 +68,69 @@ nav span {
 
 .mission-text {
   margin: auto;
+  width: 100%;
   background-color: black;
+}
+
+#featuredteas{
+  width: 1000px;
+  background-color black;
+  display: flex;
+  justify-content: cemter;
+  flex-wrap: wrap;
+
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.featuredteas-text {
+  width: 1000px;
+  justify-content: center;
+  background-color: black;
+}
+
+.featuredtea img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+
+.locations-text {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.location {
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+  opcatity: 1.0;
+  flex-basis: 280px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
