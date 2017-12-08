@@ -9,7 +9,7 @@ body {
 }
 
 div {
-   border: 1px solid black;
+/*    border: 1px solid black; */
 }
 
 .flex-container {
@@ -133,4 +133,20 @@ h2, h3, h4 {
   flex-direction: column;
   display: flex;
   justify-content: center;
+}
+
+.info {
+  height: 200px;
+  padding: 20px;
+  background-color: black;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer h5 {
+  padding: 20px;
 }
